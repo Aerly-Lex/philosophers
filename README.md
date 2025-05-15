@@ -25,9 +25,11 @@ To compile and run the simulation:
 ```bash
 make
 ./philosophers <number_of_philosophers> <time_to_die> <time_to_eat> <time_to_sleep> [number_of_times_each_philosopher_must_eat]
+```
 
-Replace the arguments with appropriate values to configure the simulation.
+Replace the arguments with appropriate values to configure the simulation.  
+The argument in square brackets is optional.
 
-i.e.
-./philosophers 5 800 200 200 5
+i.e.  
+./philosophers 5 800 200 200 5  
 ./philosophers 40 800 200 200
